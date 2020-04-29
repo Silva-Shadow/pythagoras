@@ -27,7 +27,7 @@ print(is_even(3))
 # Do not use the built-in functions min or max in implementing your solution.
 
 def minmax(data):
-    largest = data[0]
+    largest = data[-1]
     smallest = data[0]
     for item in data:
         if item > largest:
